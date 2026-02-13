@@ -100,7 +100,7 @@ def num_factors(n):
     """Return the number of factors of N, including 1 and N itself."""
     # BEGIN PROBLEM 4
     "*** YOUR CODE HERE ***"
-    
+    return len([i for i in range(1,n+1) if n%i==0]
     # END PROBLEM 4
 
 
